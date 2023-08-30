@@ -1,0 +1,10 @@
+/* global.css */
+
+:root {
+  --primary-color: #6156d0;
+  --secondary-color: #ebecf3;
+  --third-color: #8f9ba8;
+  --red-color: #d55995;
+  --light-color: #35b8e0;
+  --light-grey-color: #e0e0e0; /* Corrected light grey color value */
+}

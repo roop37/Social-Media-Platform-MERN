@@ -1,0 +1,49 @@
+/* src/CreatePost.css */
+.create-post {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.create-post h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.post-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.upload-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.upload-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hidden-input {
+  display: none;
+}
+
+.post-button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

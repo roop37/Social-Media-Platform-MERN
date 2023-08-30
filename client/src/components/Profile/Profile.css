@@ -1,0 +1,68 @@
+@import "../../global.css";
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.profile .containerprof {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+
+.profile .containerprof .topsec {
+  width: 60%;
+
+  display: flex;
+  justify-content: space-around;
+  margin: 18px 0px;
+
+  align-items: center;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.profile .containerprof .topsec .pp img {
+  width: 160px;
+  height: 160px;
+  border-radius: 80%;
+}
+
+.profile .containerprof .topsec .details .followers {
+  display: flex;
+  width: 108%;
+  margin-top: 10px;
+  gap: 35px;
+}
+
+.profile .containerprof .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.profile .containerprof .gallery .item {
+  width: 30%;
+  margin: 10px;
+}
+
+.custom-upload-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-upload-button:hover {
+  background-color: #2980b9;
+}
+
+/* Hide the default file input */
+#profile-pic-input {
+  display: none;
+}

@@ -1,0 +1,69 @@
+@import "../../global.css";
+
+.topbar {
+  background: var(--primary-color);
+  height: 70px;
+  width: 100%;
+}
+
+.topbar .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.topbar .wrapper .left {
+  background-color: #524ab1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 70px;
+  color: var(--secondary-color);
+}
+
+.topbar .wrapper .left h3 {
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+.topbar .wrapper .right {
+  width: 40%;
+}
+
+.topbar .wrapper .right .listing ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+.topbar .wrapper .right .listing ul li {
+  position: relative;
+}
+
+.topbar .right .listing a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.topbar .wrapper .right .listing ul li::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.topbar .wrapper .right .listing ul li:hover::before {
+  background-color: var(--secondary-color);
+  transform: scaleX(1);
+}
